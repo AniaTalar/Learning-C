@@ -41,6 +41,7 @@ void fill_array(int size,struct complex*p) {
 
         int rd_num = rand() % 100;
         p[i].imaginary_part=rd_num;
+        //TODO: separate the real and imaginary part
         p[i].real_part=rd_num;
 
     }
